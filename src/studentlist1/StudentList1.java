@@ -22,10 +22,12 @@ public class StudentList1 {
         s2.setName("Vraj Lakhani");
          Student s3 = new Student();
         s3.setName("Nakul Chaudhry");
+         Student s4 = new Student();
+        s4.setName("Aayush Soni");
         StudentList1[0] = s1;
         StudentList1[1] = s2;
         StudentList1[2] = s3;
-        
+        StudentList1[3] = s4;
         for (Student s : StudentList1) {
             System.out.println(s.getName());
         }
